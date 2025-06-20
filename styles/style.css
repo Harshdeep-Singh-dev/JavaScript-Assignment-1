@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+main{
+    display: flex;
+}
+.container1{
+    display: flex;
+    
+}
+.container2{
+    margin-left: 30px;
+}
+.row{
+    text-align: center;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+span{
+    padding-bottom: 30px;
+}
+#btn-purple{
+    background-color: purple;
+}
+#btn-blue{
+    background-color: blue;
+}
+#btn-green{
+    background-color: green;
+}
+#btn-orange{
+    background-color: orange;
+}
+#btn-pink{
+    background-color: pink;
+}
+#btn-random{
+    color: white;
+    font-size: 1.2rem;
+    background-color: red;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+ul{
+    list-style-type: none;
+    height: 100vh;
+    width: 10vw;
+    padding-top: 5vh;
+    margin-left:0.8vw;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.purple-list{
+    background-color: purple;
+}
+.blue-list{
+    background-color: blue;
+}
+.green-list{
+    background-color: green;
+}
+.orange-list{
+    background-color: orange;
+}
+.pink-list{
+    background-color: pink;
+}
+
+
+#sentence-box{
+    font-size: 3rem;
+    color: black;
+    font-weight: 900;
+    margin-top: 45px;
+    text-align: center;
+}
+

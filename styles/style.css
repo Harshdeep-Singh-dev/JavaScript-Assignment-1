@@ -4,9 +4,13 @@
     padding: 0;
     color: #fff;
 }
+
+/* MAIN STYLES */
 main{
     display: flex;
 }
+
+/* CONTAINER 1 AND CONTAINER 2 */
 .container1{
     display: flex;
     
@@ -14,6 +18,9 @@ main{
 .container2{
     margin-left: 30px;
 }
+
+
+/* ROW, BUTTONS AND LIST ITEMS */
 .row{
     text-align: center;
 }
@@ -30,6 +37,8 @@ li{
     align-items: center;
     justify-content: center;
 }
+
+/* IMG  */
 img{
     height: 50px;
     width: 50px;
@@ -37,6 +46,8 @@ img{
 span{
     padding-bottom: 30px;
 }
+
+/* BUTTONS  */
 #btn-purple{
     background-color: purple;
 }
@@ -60,6 +71,7 @@ span{
     margin-left: 100px;
 }
 
+/* LISTS */
 ul{
     list-style-type: none;
     height: 100vh;
@@ -86,6 +98,8 @@ ul{
     background-color: pink;
 }
 
+
+/* OUTPUT BOX */
 
 #sentence-box{
     font-size: 3rem;
